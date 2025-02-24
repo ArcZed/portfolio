@@ -1,0 +1,27 @@
+html, head {
+    height: 100%;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+  }
+  
+  html {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+body {
+    background-color:  #EEEEEE;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    border-bottom: 5px solid black;
+    color: black;
+}
