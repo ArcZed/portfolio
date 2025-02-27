@@ -6,26 +6,65 @@
     <title>Personal Portfolio</title>
 <script defer src="main.js"></script></head>
 <body>
- 
-    
-  <div class="menu">
-    MENU
-    <svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect width="96" height="96" transform="translate(0 96) rotate(-90)" fill="#00ADB5"/>
-      <path d="M14 47.5L81.9048 47.5" stroke="#EEEEEE" stroke-opacity="0.75" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M62.0992 32L81.9047 47.5L62.0992 63" stroke="#EEEEEE" stroke-opacity="0.75" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-  </div>
-  <div class="page" id="front">
-    <div class="hero">
-      <div>
-        HI, I'M <br>
-        <span style="color: #00ADB5;">KHOA TRAN</span></div>
+  <div class="container">
+    <div class="page" id="front">
+      <div class="hero">
+        <div>
+          HI, I'M <br>
+          <span style="color: #00ADB5;">KHOA TRAN</span></div>
+        </div>
+        <div class="page-img"></div>
+        <svg width="348" height="24" viewBox="0 0 348 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="174" cy="12" rx="174" ry="12" fill="#C5C5C5" fill-opacity="0.5"/>
+          </svg>
+          
       </div>
-      <div class="page-img"></div>
+    <div class="page" id="aboutme">
+      <div class="title about">About Me
+        <div class="text">
+          Em là Khoa, 23 tuổi, sinh viên năm cuối 
+          ngành Kỹ thuật Ô tô tại Đại học Sư phạm 
+          Kỹ thuật TP.HCM. Với niềm đam mê kỹ thuật 
+          và lập trình, em đang tìm kiếm cơ hội thực 
+          tập để phát triển kỹ năng coding, đặc biệt là lập trình web. 
+        </div>
+      </div>
+      <div class="pfp"></div>
+      <div class="title skills">My <span style="color: #00ADB5;">Skills</span>
+        <section>
+          <div class="button">HTML</div>
+          <div class="button">CSS</div>
+          <div class="button">Javascript</div>
+          <div class="button">Github</div>
+          <div class="button">Visual Code</div>
+        </section>
+      </div>
     </div>
-  <div class="page" id="aboutme"></div>
-  <div class="page"></div>
-  <div class="page"></div>
+    
+    <div class="page" id="projects">
+      <div class="title">My <span style="color: #00ADB5;">Projects</span></div>
+      <div class="project-cards-wrapper">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+      </div>
+    </div>
+    <div class="page" id="contact">
+      <div class="title">Contact
+        <div class="contact-img"></div>
+      </div> 
+      <div class="input-info">
+        <form action="">
+          <fieldset>
+            <input type="text" name="name" id="name">
+            <input type="email" name="email" id="email">
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <button type="submit">Send Message</button>
+          </fieldset>
+        </form>
+      </div>
+      <div class="footer"></div>
+    </div>
+</div>
 </body>
 </html>
